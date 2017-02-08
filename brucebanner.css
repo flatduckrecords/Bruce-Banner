@@ -1,0 +1,66 @@
+.brucebanner{	
+	width: 100%;
+	height: 210px;
+	overflow: hidden;
+	margin-bottom:1em;
+	background: #222222 url('<t4 type="media" id="22275" formatter="image/path"/>') center center no-repeat;
+}
+
+
+#stir-content .brucebanner ul {
+	margin:0;
+}
+
+.brucebanner ul {
+	margin-left: 0;
+	list-style: none;
+	padding: 0;
+	width: inherit;
+	height: inherit;
+}
+
+.brucebanner ul.js li {
+	margin: 0;
+	width: 100%;
+	height: 210px;
+	color: #fff;
+	list-style: none;
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+.brucebanner ul.js li.notext {
+	text-indent: -20000px;
+}
+.brucebanner ul.js li span {
+	display: block;
+	position: absolute;
+	top:auto;
+	bottom: 10px;
+	left: 10px;
+	right: auto;
+	background: #333;
+	padding: 0.5em;
+	font-size: 1.66em;
+	font-family: Georgia, serif;
+	max-width: 55%;
+	line-height: 1.33;
+}
+
+.brucebanner ul.js li a {
+	display: block;
+	height: 210px;
+}
+#stir-content .brucebanner ul li a{
+	color: #fff;
+}
+
+.brucebanner.large,
+.brucebanner.large ul.js li{
+	height: 260px;
+}
+
+.brucebanner. li img {
+	display: block;
+}
